@@ -1,0 +1,13 @@
+body { width: 100%; margin: 0px; padding: 0px; font: 14px arial, helvetica, times new roman; color: #000; }
+p, .play, .container { width: 375px; margin: 0px auto; text-align: center; }
+p { text-transform: uppercase; margin-top: -28px; height: 14px; }
+span { padding: 0px 5px; color: #999; }
+.container { height: 200px; border: 1px solid #CCC; }
+.container ul { position: absolute; top: 0px; }
+.container ul li { padding: 120px 15px 10px; margin: 0px -2px 0px 0px; display: inline-block; border: 1px solid #CCC; border-top: none; text-transform: uppercase; }
+.container ul:last-child { position: absolute; top: 0px; margin-left: 25px; }
+.container ul:last-child li { display: inline-block; padding: 100px 15px 0px; margin: 0px 10px 0px 0px; background: #000; }
+.container ul:last-child li.moveOver { margin-right: 50px; } 
+.container ul li:hover { cursor: pointer; }
+.play { margin-top: 20px ;}
+.keystroke { background: #eee; }
